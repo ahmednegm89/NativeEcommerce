@@ -8,7 +8,6 @@ Ecommerce Using Native PHP
  - items CRUD and Approve feature.
  - users CRUD and Approve feature.
  - comments CRUD and Approve feature.
- - Assign any user, category and item .
  
 ## user side 
  - all registration features (sign up , login , log out).
