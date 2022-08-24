@@ -1,0 +1,39 @@
+
+@font-face {
+    font-family: light;
+    src: url(../fonts/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: medium;
+    src: url(../fonts/Poppins-Medium.ttf);
+  }
+@font-face {
+    font-family: regular;
+    src: url(../fonts/Poppins-Regular.ttf);
+  }
+@font-face {
+    font-family: bold;
+    src: url(../fonts/Poppins-Bold.ttf);
+  }
+*{
+  font-family: light;
+}
+
+.cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login {
+  width: 300px;
+  color: black;
+  font-family: 'light';
+}
+
+.login button {
+  width: 300px;
+  border: transparent;
+
+}
+

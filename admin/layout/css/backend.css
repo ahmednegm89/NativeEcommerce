@@ -1,0 +1,47 @@
+
+@font-face {
+    font-family: light;
+    src: url(../fonts/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: medium;
+    src: url(../fonts/Poppins-Medium.ttf);
+  }
+@font-face {
+    font-family: regular;
+    src: url(../fonts/Poppins-Regular.ttf);
+  }
+@font-face {
+    font-family: bold;
+    src: url(../fonts/Poppins-Bold.ttf);
+  }
+*{
+  font-family: light;
+}
+
+ /* FORM STYLE */
+.cont{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(255,0,245);
+    background: linear-gradient(90deg, rgba(255,0,245,1) 50%, rgba(0,212,255,1) 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .login {
+    width: 300px;
+    color: white;
+    font-family: 'light';
+}
+
+.login input{
+  border: transparent ;
+}
+
+.login button{
+  width: 300px;
+  border: transparent ;
+
+} 
+
