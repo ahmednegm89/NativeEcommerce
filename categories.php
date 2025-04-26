@@ -12,6 +12,7 @@ while ($row = mysqli_fetch_assoc($query)) {
     $allitems[] = $row;
 }
 ?>
+
 <div class="container">
     <div class="d-flex flex-wrap justify-content-center align-items-center gap-5">
         <?php
